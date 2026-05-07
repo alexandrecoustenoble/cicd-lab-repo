@@ -1,0 +1,14 @@
+# Google Agent Development Kit
+google-adk
+
+# Web Server & Framework
+fastapi
+uvicorn
+
+# Common dependencies for ADK agents
+pydantic
+python-dotenv
+
+# If you are using Google Generative AI (Gemini)
+google-generativeai
+
