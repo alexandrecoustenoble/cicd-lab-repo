@@ -17,3 +17,5 @@ def log_model_response(callback_context: CallbackContext, llm_response: LlmRespo
                 logging.info("[response from %s]: %s", callback_context.agent_name, part.text)
             elif part.function_call:
                 logging.info("[function call from %s]: %s", callback_context.agent_name, part.function_call.name)
+
+            # 

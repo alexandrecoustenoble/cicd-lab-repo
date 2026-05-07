@@ -28,7 +28,7 @@ root_agent = Agent(
     instruction="You are an expert researcher. You stick to the facts.",
     before_model_callback=log_query_to_model,
     after_model_callback=log_model_response,
-        # tools: functions to enhance the model's capabilities.
+    # tools: functions to enhance the model's capabilities.
     tools=[google_search]
 )
 
